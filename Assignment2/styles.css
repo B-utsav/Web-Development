@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: rgb(144, 144, 144);
+    background-color: rgb(201, 199, 199);
     display: grid;
     gap: 1rem;
 
@@ -116,7 +116,7 @@ button:hover{
     white-space: pre;
 }
 
-@media (max-width: 700px){
+@media (max-width: 500px){
     body{
         grid-template-areas: 
             "header"
