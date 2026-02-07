@@ -1,0 +1,50 @@
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 900px;
+    margin: 1rem auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: lightgray;
+
+}
+
+.btn{
+    padding: 0.8rem 1.2rem;
+    font-size: 1.25rem;
+    flex: 1 1 180px;
+    min-width: 120px;
+}
+
+.num_disp{
+    display: block;
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 1.1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.row1, .row2, .row3{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.row1 > *{
+    flex: 1 1 0;
+}
+
+.row1 #symbol{
+    flex: 0 0 120px;
+}
+
+.row2{
+    flex-wrap: wrap;
+}
